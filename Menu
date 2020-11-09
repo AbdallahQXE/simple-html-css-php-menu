@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>QXEcompany</title>
+  <style>
+  
+  * { /* this controll the hole page */
+	margin: 0; /* we use margin 0 and padding 0 to make everything to top left cornar */
+	padding: 0; /* the same as margin i mean the comment */
+}
+
+body {
+	background-color: #181818;
+}
+  
+ nav {
+	width: 100%;
+	height: 50px;
+	background-color: #fff;
+}
+
+ul { /* this used to controll all of the ul*/
+	margin-left: 0px;
+}
+
+ul li { /* this used to controll the li */
+	list-style: none; /* this remove the dots.. in the links word list */
+	display: inline-block; /* this will make the list words next to each other in the same side */
+	float: left; /* this remove all the spaces between the list words the gab */
+	line-height: 50px; /* this used make the list words in the middle of the box anv */
+
+}
+
+ul li a { /* this used to controll the a */
+	display: block; /* thsi let you can click the list word link even if you click above the word or below it */
+	text-decoration: none; /* this remove the lines below the list words */
+	font-size: 14px; /* font size */
+	font-family: arial; /* font type */
+	color: #1e1e1e; /* list words color in this case we used 1e1e1e and that is black color */
+	padding: 0 88px; /* this make spaces between each list word */
+
+}
+
+ul li a:hover {
+	color: red;
+}
+ </style>
+</head>
+
+<body>
+		
+
+
+<nav>
+
+
+		<ul>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="#">Our Work</a></li>
+			<li><a href="#">About us</a></li>
+			<li><a href="#">Contact us</a></li>
+			<li><a href="#">Login</a></li>
+			<li><a href="#">Sign Up</a></li>
+		</ul>
+</nav>
+
+
+
+
+
+
+	<div class="wrapper">
+  
+  </div>
+</body>
+</html>
